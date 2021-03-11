@@ -1,0 +1,48 @@
+.productContainer{
+  margin:2rem;
+}
+.productList{
+    display: flex;
+    width:100%;
+}
+.productList div{
+  margin:1rem;
+  width:40%;
+  border-radius:10px;
+  border:1px solid #e1ecf8;
+  
+}
+.productList div img{ 
+  padding:-0.7rem;
+  background-color:#e1ecf8;
+  border-radius:10px 10px 0px 0px;
+  width:100%;
+}
+
+.productList h3{
+  font-size:1rem;
+  padding:0px;
+  margin:0px;
+  font-weight: bold;
+  padding:0.1rem 1rem;
+}
+
+.productList p{
+  font-size:0.9rem;
+  padding:0.1rem 1rem;
+}
+
+.productList button{
+  width:90%;
+  margin:0.5rem 1rem 0.1rem;
+  background-color: #448ed0;
+  color:#fff;
+  border:0px;
+  padding:0.6rem;
+  cursor: pointer;
+}
+
+
+.productList button:last-child{
+  margin:0.2rem 1rem 1rem;
+}
